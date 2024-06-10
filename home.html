@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home ESB</title>
+    <link rel="stylesheet" href="home.css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+       (function(){
+          emailjs.init("mz5SaNnaKqVZALQci");
+       })();
+    </script>
+    <script src="./index.js"></script>
+</head>
+<body>
+    <div class="head4gb">
+        <img src="./img/fed8df88-ea89-4d8a-8c9e-813c04617c50 (3).png" alt="Logo Corpo de Bombeiros" class="imgcadastro">
+        <img src="./img/logo_escola1.png" alt="Logo ESB" class="imgcadastro">
+    </div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<div class="container">
+  <div class="form-header">
+    <h1>Cadastro da ESB</h1>
+  </div>
+  <div class="form-body">
+    <form id="cadastroForm">
+      <div class="controls">
+        <label for="name">Nome:</label>
+        <input id="name" name="name" class="btn-input" placeholder="Insira o seu Nome na Cidade" required />
+      </div>
+      <div class="controls">
+        <label for="rg">RG:</label>
+        <input id="rg" name="rg" class="btn-input" placeholder="Insira o seu RG na Cidade" required />
+      </div>
+      <div class="controls">
+        <label>Você já é aluno?</label>
+        <div class="middle">
+          <div class="btndec1">
+            <input type="radio" id="sim" name="aluno" value="sim" required>
+            <label for="sim">Sim</label><br>
+          </div>
+          <div class="btndec2">
+            <input type="radio" id="nao" name="aluno" value="não">
+            <label for="nao">Não</label><br>
+          </div>
+        </div>
+      </div>
+      <div class="buttons">
+        <button type="submit" class="btn-blue">Enviar</button>
+      </div>
+    </form>
+  </div>
+</div>
+</body>
+</html>
