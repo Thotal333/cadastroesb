@@ -1,0 +1,25 @@
+body{
+    background-color: #720000;
+}
+
+.head4gb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgcadastro{
+    width: 200px;
+    padding: 50px;
+
+    
+}
+
+h1{
+  color: white;
+  width: 200px;
+  padding: 50px;
+  align-items: center;
+  justify-content: center;
+
+}
