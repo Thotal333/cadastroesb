@@ -14,12 +14,16 @@ body{
 
     
 }
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+
+}
 h1{
   color: white;
-  width: 200px;
+  width: 400px;
   padding: 50px;
-  align-items: center;
-  justify-content: center;
 
 }
